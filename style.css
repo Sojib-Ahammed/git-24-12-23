@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+form{
+    width: 40%;
+    background-color: rgb(214, 162, 232);
+    padding: 10px;
+    border-radius:5px;
+    border: 2px solid black;
+}
+form >h1 >span{
+    border-bottom: 4px solid snow;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    outline: 0;
+    border: 2px solid rgba(0, 128, 0, 0.5);
+     
+}
+form textarea{
+    min-width: 100%;
+    max-width: 100%;
+    padding: 7px;
+    outline: 0;
+    border: 2px solid rgba(0, 128, 0, 0.5);
+}
+form h3{
+    margin: 5px  3px;
+
+}
+form select{
+    width: 100%;
+    padding: 7px;
+    outline: 0;
+    border: 2px solid rgba(0, 128, 0, 0.1);
+    margin: 5px 0;
+     
+
+}
+form button{
+    width: 100%;
+    padding: 7px;
+    outline: 0;
+    border: 2px solid rgba(198, 216, 198, 0.886);
+    margin-top: 5px;
+    font-size: 18px;
+    background-color: rgb(108, 92, 231);
+    color: snow;
+    border-radius: 5px;
+}
+   
+   
